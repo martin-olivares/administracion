@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,500&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@500&display=swap');
+
+.user {
+    height: auto;
+    width: 30px;
+}
+.flex{
+    display: flex;
+}
+.banner {
+    justify-content: center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.contenedor{
+    flex-direction: row;
+    position: relative;
+    box-sizing: border-box;    
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    padding: 3%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.publicidad {
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 2px solid
+    
+}
+.serv-div{
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    padding: 4%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 4px solid
+}
+.paragraph {
+    flex-direction: row;
+    flex: 1;
+    font-family: 'Nunito', sans-serif;
+    width: 90%;
+    height: auto;
+    padding: 1%;
+    box-sizing: border-box;
+    border: 2px solid;
+    margin: 10px auto;
+}
+
+.insta-social-icons {
+    height: 50px;
+    width: 50px;
+
+}
+
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+    background-color: rgba(196, 218, 210, 0.514);
+}
+
+main p {
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    background-image: url(../img/Edificios-azul-2.jpg);
+}
+
+.background-color {
+    background-color: rgb(75, 8, 221);
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.bg-img {
+    background-image: url(../img/Edificios-azul-2.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer {
+    width: 93.8%;
+    height: auto;
+    margin: 10px auto;
+    padding: 3.05%;
+    border: double rgb(0, 0, 0);
+    background-image: url(../img/Edificios-azul-1.jpg);
+    background-repeat: round;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(1, 0, 10);
+    font-size: xx-large;
+}
+
+.div-maps {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.flex-direction{
+    display: flex;
+    align-items:end;
+    justify-content: space-around;
+}
+
+.div-social {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-social-icon {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+.flex-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.flex-wrap{
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: aut;
+    justify-content: center;
+
+}
+

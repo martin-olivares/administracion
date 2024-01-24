@@ -174,8 +174,10 @@ h2 {
 .flex-wrap{
     flex-wrap: wrap;
     min-width: 320px;
-    max-width: aut;
+    max-width: auto;
     justify-content: center;
 
 }
-
+.element{
+    background-image: linear-gradient(to right, #d71fef 0%, #0083f5 100%);
+  }

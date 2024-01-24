@@ -30,8 +30,6 @@
 }
 
 .serv-div {
-    flex-direction: row;
-    flex: 1;
     width: 100%;
     height: auto;
     padding: 4%;
@@ -67,6 +65,10 @@
 
 .text-italic {
     font-style: italic;
+    padding: 2% 9% 0% 9%;
+    font-size: large;
+    line-height: 40px;
+    
    
 }
 
@@ -151,15 +153,6 @@ h2 {
 
 .proyect-back{
     background-image: linear-gradient(to left, #6e7575 3%, #e5e5f3 81%);
-    padding-top:;
-}
-
-
-.main-servicios {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1%;
-
 }
 
 h3 {
@@ -206,4 +199,10 @@ footer h4{
 }
 .proyect-direccion{
     flex-direction:row;
+}
+.element{
+    background-image: linear-gradient(to bottom right, #0000ff 3%, #0083f5 81%);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh
 }

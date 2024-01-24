@@ -4,9 +4,11 @@
     height: auto;
     width: 30px;
 }
-.flex{
+
+.flex {
     display: flex;
 }
+
 .banner {
     justify-content: center;
     background-repeat: repeat-x;
@@ -15,38 +17,19 @@
 
 }
 
-.contenedor{
+.contenedor {
     flex-direction: row;
     position: relative;
-    box-sizing: border-box;    
-}
-
-.main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex: 1;
-    width: 100%;
-    height: auto;
-    margin: 10px auto;
-    padding: 3%;
-    background-repeat: repeat;
-    background-attachment: fixed;
     box-sizing: border-box;
 }
 
 .publicidad {
-    flex-direction: row;
-    flex: 1;
-    width: 100%;
-    height: auto;
-    padding: 1%;
-    margin: 10px auto;
-    box-sizing: border-box;
-    border: 2px solid
-    
+    max-width: 100%;
+    margin-bottom: 3.5%;
+
 }
-.serv-div{
+
+.serv-div {
     flex-direction: row;
     flex: 1;
     width: 100%;
@@ -56,6 +39,7 @@
     box-sizing: border-box;
     border: 4px solid
 }
+
 .paragraph {
     flex-direction: row;
     flex: 1;
@@ -79,18 +63,24 @@
     font-weight: bold;
 }
 
+
+
 .text-italic {
     font-style: italic;
-    background-color: rgba(196, 218, 210, 0.514);
+   
 }
 
-main p {
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to top, #7d8d91 3%, #0083f5 81%);
+    margin-top: 20px;
+    padding-top: 1.5%;
     color: rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
-}
-
-main{
-    background-image: url(../img/Edificios-azul-2.jpg);
+    background-size: cover;
 }
 
 .background-color {
@@ -119,7 +109,7 @@ h1 {
 
 footer {
     width: 93.8%;
-    height: auto;
+    height: 30%;
     margin: 10px auto;
     padding: 3.05%;
     border: double rgb(0, 0, 0);
@@ -134,50 +124,86 @@ h2 {
     font-size: xx-large;
 }
 
-.div-maps {
+.flex-direction {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
-
-}
-
-.flex-direction{
-    display: flex;
-    align-items:end;
+    align-items: end;
     justify-content: space-around;
 }
-
-.div-social {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.div-social-icon {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    
-}
-
 
 .flex-foot {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     box-sizing: border-box;
+    border: none;
+   
+    background-color: #d71fef;
 
 }
-.flex-wrap{
+
+.flex-wrap {
     flex-wrap: wrap;
     min-width: 320px;
     max-width: auto;
     justify-content: center;
 
 }
-.element{
-    background-image: linear-gradient(to right, #d71fef 0%, #0083f5 100%);
-  }
+
+.proyect-back{
+    background-image: linear-gradient(to left, #6e7575 3%, #e5e5f3 81%);
+    padding-top:;
+}
+
+
+.main-servicios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1%;
+
+}
+
+h3 {
+    color: aliceblue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.section-peticion {
+    margin-top: 20px;
+    
+
+}
+
+.btn-peticiones {
+    justify-content: end;
+    margin-left: 10px;
+
+
+}
+
+label {
+    display: block;
+}
+
+.center-form {
+    justify-content: center;
+    text-align: center;
+}
+
+.back-peticions {
+
+    background-image: linear-gradient(to top, #7d8d91 3%, #0083f5 81%);
+}
+footer p{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+footer h4{
+    font-weight: bold;
+    
+}
+.proyect-direccion{
+    flex-direction:row;
+}

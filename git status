@@ -1,0 +1,35 @@
+[33mcommit 6041174a277a4558d20802d875f5ce452467b18f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: martin-olivares <olivaresm@bbva.com>
+Date:   Wed Jan 31 17:14:00 2024 -0300
+
+    se incluye sass al proyecto
+
+[33mcommit f3c02137477a330abd0627f30dfc28fc703722e3[m
+Author: martin-olivares <olivaresm@bbva.com>
+Date:   Wed Jan 31 03:22:15 2024 -0300
+
+    se incluye sass
+
+[33mcommit fb47efcbc868d162e1b63af65bc3a3716da98712[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: martin-olivares <olivaresm@bbva.com>
+Date:   Wed Jan 24 19:37:46 2024 -0300
+
+    se hizo responsive
+
+[33mcommit 6748efeaa4b132d10a153cf62dd7b4e16981c302[m
+Author: martin-olivares <olivaresm@bbva.com>
+Date:   Wed Jan 24 19:09:59 2024 -0300
+
+    Se crearon formularios y se adapto la nav
+
+[33mcommit a6ade1b9ef0d4af7c8cb3995ff3e83f6a46cc98d[m
+Author: martin-olivares <olivaresm@bbva.com>
+Date:   Wed Jan 24 13:44:31 2024 -0300
+
+    actualizacion Nav y Logg
+
+[33mcommit 08e6ecc4a00750038e7e4fb6c99a0729fa6cd056[m
+Author: martin-olivares <olivaresm@bbva.com>
+Date:   Thu Jan 18 01:08:46 2024 -0300
+
+    subida primer repo

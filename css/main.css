@@ -67,4 +67,118 @@ main {
   justify-content: center;
 }
 
+.proyect-direccion {
+  flex-direction: row;
+}
+
+.back-peticions {
+  background-image: linear-gradient(to top, #7d8d91 3%, #0083f5 81%);
+}
+
+.section-peticion {
+  margin-top: 20px;
+}
+
+.btn-peticiones {
+  justify-content: end;
+  margin-left: 10px;
+}
+
+.proyect-back {
+  background-image: linear-gradient(to left, #6e7575 3%, #e5e5f3 81%);
+}
+
+.flex {
+  display: flex;
+}
+
+.contenedor {
+  flex-direction: row;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.serv-div {
+  width: 100%;
+  height: auto;
+  padding: 4%;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: 4px solid;
+}
+
+.list-style {
+  list-style-type: none;
+}
+
+.bg-img {
+  background-image: url(../img/Edificios-azul-2.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.flex-direction {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+
+footer p {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer h4 {
+  font-weight: bold;
+}
+
+.flex-foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: none;
+  background-color: #d71fef;
+}
+
+footer {
+  width: 93.8%;
+  height: 30%;
+  margin: 10px auto;
+  padding: 3.05%;
+  border: double rgb(0, 0, 0);
+  background-image: url(../img/Edificios-azul-1.jpg);
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+.bg-img {
+  background-image: url(../img/Edificios-azul-2.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.insta-social-icons {
+  height: 50px;
+  width: 50px;
+}
+
+.element {
+  background-image: linear-gradient(to bottom right, #0000ff 3%, #0083f5 81%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.center-form {
+  justify-content: center;
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */

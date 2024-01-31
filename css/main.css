@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,500&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@500&display=swap");
+h1 {
+  display: flex;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 300%;
+  align-items: center;
+  flex-direction: row;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  text-decoration: black;
+  font-size: xx-large;
+  color: rgb(1, 0, 10);
+}
+
+h3 {
+  color: aliceblue;
+  text-decoration: underline;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to top, #7d8d91 3%, #0083f5 81%);
+  margin-top: 20px;
+  padding-top: 1.5%;
+  color: rgb(0, 0, 0);
+  font-family: "Nunito", sans-serif;
+  background-size: cover;
+}
+
+.text-italic {
+  font-style: italic;
+  padding: 2% 9% 0% 9%;
+  font-size: large;
+  line-height: 40px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.publicidad {
+  max-width: 100%;
+  margin-bottom: 3.5%;
+}
+
+.banner {
+  justify-content: center;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  min-width: 320px;
+  max-width: auto;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */

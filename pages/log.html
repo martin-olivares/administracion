@@ -17,14 +17,14 @@
 
     <div class="container mt-5 col-md-5 ">
         <h2 class="text-center">Iniciar Sesión</h2>
-        <form>
-            <div class="mb-3">
+        <form method="post">
+            <div class="mb-3 username">
                 <label for="username" class="form-label">Nombre de Usuario</label>
-                <input type="text" class="form-control" id="username" placeholder="Ingrese su nombre de usuario">
+                <input type="text" class="form-control" id="username" placeholder="Ingrese su nombre de usuario" required>
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+                <input type="text" class="form-control" id="username" placeholder="Contraseña" required>
             </div>
 
             <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>

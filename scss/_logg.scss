@@ -14,3 +14,13 @@ $backglogg: linear-gradient(to bottom right, #0000ff 3%, #0083f5 81%);
 label {
     display: block;
 }
+.button {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }

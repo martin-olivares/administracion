@@ -23,42 +23,58 @@
         </div>
 
         <div>
-            <a href="./log.html">          
+            <a href="./log.html">
                 <button type="button" class="btn button btn-primary " data-bs-toggle="tab"
                     aria-expanded="false">Logout</button></a>
         </div>
     </header>
-    <nav class="flex-wrap justify-content-center navbar-expand-lg">
-        <div class="container-fluid flex-wrap">
+    <nav class="navbar navbar-expand-sm ">
+        <div class="container-fluid flex-wrap ">
 
-            <ul class="nav nav-pills nav-fill p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist"
-                style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-                <li class="nav-item" role="presentation">
-                    <a href="../index.html">
-                        <button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab"
-                            aria-selected="true">Home</button> </a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a href="../pages/proyectos.html">
-                        <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button"
-                            role="tab" aria-selected="false">Proyectos</button> </a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a href="../pages/servicios.html">
-                        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button"
-                            role="tab" aria-selected="false">Servicios</button></a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a href="../pages/peticiones.html">
-                        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button"
-                            role="tab" aria-selected="false">Peticiones</button></a>
-                </li>
-                <li class="nav-item " role="presentation"> <a
-                        href="../planos/planos_sector_7_-_estacion_buenos_aires.pdf" target="_blank">
-                        <button class="nav-link rounded-5" id="contact-tab3" data-bs-toggle="tab" type="button"
-                            role="tab" aria-selected="false">Plano</button></a>
-                </li>
-            </ul>
+            <button
+                class="container-fluid navbar-toggler navbar-nav me-auto mb-2 mb-lg-0 nav-fill p-1 smal bg-primary rounded-5 shadow-sm"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="container-fluid navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="container-fluid nav nav-pills navbar-nav me-auto mb-2 mb-lg-0 nav-fill p-1 smal bg-primary rounded-5 shadow-sm "
+                    id="pillNav2" role="tablist"
+                    style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                    <li class="nav-item" role="presentation">
+                        <a href="../index.html">
+                            <button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button"
+                                role="tab" aria-selected="false">Home</button> </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="../pages/proyectos.html">
+                            <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button"
+                                role="tab" aria-selected="true">Proyectos</button> </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="../pages/servicios.html">
+                            <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button"
+                                role="tab" aria-selected="false">Servicios</button></a>
+                    </li>
+                    
+                    <li class="nav-item" role="presentation">
+                        <a href="../pages/peticiones.html">
+                            <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button"
+                                role="tab" aria-selected="false">Peticiones</button></a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="./locales.html">
+                            <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button"
+                                role="tab" aria-selected="false">Locales comerciales</button></a>
+                    </li>
+                    <li class="nav-item " role="presentation"> <a
+                            href="../planos/planos_sector_7_-_estacion_buenos_aires.pdf" target="_blank">
+                            <button class="nav-link rounded-5" id="contact-tab3" data-bs-toggle="tab" type="button"
+                                role="tab" aria-selected="false">Plano</button></a>
+                    </li>
+                </ul>
+            </div>
 
         </div>
     </nav>
@@ -73,16 +89,15 @@
             <div>
                 <p class="mt-2">
                     <button class="container-fluid btn btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#cerramiento" aria-expanded="false"
-                        aria-controls="collapseWidthExample">
+                        data-bs-target="#cerramiento" aria-expanded="false" aria-controls="collapseWidthExample">
                         Proyecto cerramiento
                     </button>
                 </p>
-                
-               
+
+
                 <div class="container-fluid" style="min-height: 20px;">
                     <div class="collapse collapse-horizontal" id="cerramiento">
-                        <div class="card card-body"> 
+                        <div class="card card-body">
                             Nos encontramos a la espera de una definicion por parte del consejo de administracion para
                             dar lus verde al proyecto con la constructora elegida.
                         </div>
@@ -93,8 +108,7 @@
             <div>
                 <p class="mt-2">
                     <button class="container-fluid btn btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#cocheras" aria-expanded="false"
-                        aria-controls="collapseWidthExample">
+                        data-bs-target="#cocheras" aria-expanded="false" aria-controls="collapseWidthExample">
                         Proyecto cocheras
                     </button>
                 </p>
@@ -110,8 +124,7 @@
             <div>
                 <p class="mt-2">
                     <button class="btn container-fluid btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#luminaria" aria-expanded="false"
-                        aria-controls="collapseWidthExample">
+                        data-bs-target="#luminaria" aria-expanded="false" aria-controls="collapseWidthExample">
                         Proyecto modernizacion de luminaria completa
                     </button>
                 </p>
@@ -127,8 +140,7 @@
             <div>
                 <p class="mt-2">
                     <button class="btn container-fluid btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#fachada" aria-expanded="false"
-                        aria-controls="collapseWidthExample">
+                        data-bs-target="#fachada" aria-expanded="false" aria-controls="collapseWidthExample">
                         Proyecto renovacion de fachada
                     </button>
                 </p>
@@ -144,8 +156,7 @@
             <div>
                 <p class="mt-2">
                     <button class="btn container-fluid btn-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#jardines" aria-expanded="false"
-                        aria-controls="collapseWidthExample">
+                        data-bs-target="#jardines" aria-expanded="false" aria-controls="collapseWidthExample">
                         Proyecto jardines
                     </button>
                 </p>

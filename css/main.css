@@ -123,6 +123,10 @@ main {
   justify-content: space-around;
 }
 
+.proyect-back {
+  background-image: linear-gradient(to left, #6e7575 3%, #e5e5f3 81%);
+}
+
 footer p {
   font-family: "Nunito", sans-serif;
   color: black;

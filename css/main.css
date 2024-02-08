@@ -46,8 +46,10 @@ main {
 }
 
 .publicidad {
-  max-width: 100%;
-  margin-bottom: 3.5%;
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 75%;
 }
 
 .banner {
@@ -106,6 +108,8 @@ main {
   margin: 10px auto;
   box-sizing: border-box;
   border: 4px solid;
+  
+
 }
 
 .list-style {
@@ -116,6 +120,7 @@ main {
   background-image: url(../img/Edificios-azul-2.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
+  justify-items: flex-end;
 }
 
 .flex-direction {
@@ -149,7 +154,9 @@ footer h4 {
 }
 
 footer {
-  width: 93.8%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 93.8%;
   height: 30%;
   margin: 10px auto;
   padding: 3.05%;
@@ -184,6 +191,7 @@ footer {
 
 label {
   display: block;
+ 
 }
 
 .button {
@@ -199,6 +207,9 @@ label {
 
 main {
   background-image: url(../img/condominios.jpg);
+  
+  
+ 
 }
 main h3 h4 h5 {
   font-family: "Nunito", sans-serif;
@@ -210,5 +221,8 @@ main h3 h4 h5 {
   text-decoration: underline;
   text-shadow: black;
 }
+
+
+
 
 /*# sourceMappingURL=main.css.map */

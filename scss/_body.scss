@@ -1,4 +1,5 @@
 //fonts
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,500&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@500&display=swap');
 //clases
 $mainfont: 'Nunito', sans-serif;
@@ -15,7 +16,7 @@ $mainfontcolor: rgb(0, 0, 0);
 $backgpeticion: linear-gradient(to top, #7d8d91 3%, #0083f5 81%);
 $backgproyect: linear-gradient(to left, #6e7575 3%, #e5e5f3 81%);
 $backgbody: url(../img/Edificios-azul-2.jpg);
-
+$backglogg: linear-gradient(to bottom right, #0000ff 3%, #0083f5 81%);
 
 h1{
     display: flex;
